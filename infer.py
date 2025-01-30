@@ -311,7 +311,7 @@ def main():
     split = "tib-core"
     
     # prediction path
-    prediction_path = f"/Results/{split}"
+    prediction_path = f"Results/{split}"
     
     # Load categories
     categories_file_path = "gnd-classification-for-gnd-subjects-filter.json" 
