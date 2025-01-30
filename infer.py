@@ -329,7 +329,7 @@ def main():
     classifier_gpu_0, classifier_gpu_1 = load_gpus()
     
     # create perdiction path
-    create_directory_if_not_exists(prediction_path)
+    # create_directory_if_not_exists(prediction_path)
     
     if(prediction_level == 1):
     
