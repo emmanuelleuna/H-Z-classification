@@ -314,13 +314,13 @@ def main():
     prediction_path = "/Results/{split}"
     
     # Load categories
-    categories_file_path = "./gnd-classification-for-gnd-subjects-filter.json"
+    categories_file_path = "gnd-classification-for-gnd-subjects-filter.json" 
     
     # Load GND subject
-    gnd_taxonomy_path = "./GND-Subjects-all.json"
+    gnd_taxonomy_path = "GND-Subjects-all.json"
     
     # Tibkat record file path
-    tibkat_record_file_path = f"./tibkat_test_{split}_subjects.json"
+    tibkat_record_file_path = f"tibkat_test_{split}_subjects.json"
 
     
     # functions calls --------------------------------------------------
