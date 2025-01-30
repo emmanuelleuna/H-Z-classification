@@ -301,7 +301,7 @@ def level_2_prediction(prediction_path, gnd_data, start_index, end_index, batch_
     return level_2_output_list
       
 def main():
-    
+     
     # variables --------------------------------------------------
     
     # prediction level
@@ -311,7 +311,7 @@ def main():
     split = "tib-core"
     
     # prediction path
-    prediction_path = "/Results/{split}"
+    prediction_path = f"/Results/{split}"
     
     # Load categories
     categories_file_path = "gnd-classification-for-gnd-subjects-filter.json" 
